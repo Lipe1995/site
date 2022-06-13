@@ -152,7 +152,7 @@ textarea, label {
 
 .primary,
 .link:hover {
-  color: #62f0fa;
+  
 }
 
 .no-gutter {
@@ -283,6 +283,10 @@ textarea, label {
   margin-bottom: 20px;
   width: 600px;
 }
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
 .page-title h2 {
   font-size: 68px;
   margin-bottom: 25px;
@@ -295,11 +299,11 @@ textarea, label {
   font-size: 16px;
 }
 .page-title .title-bg {
-  color: rgba(30, 37, 48, 0.07);
+  color: rgba(30, 37, 48, 50);
   font-size: 158px;
   left: 0;
   letter-spacing: 10px;
-  line-height: 0.7;
+  line-height: 0.9;
   position: absolute;
   right: 0;
   top: 50%;
@@ -333,7 +337,7 @@ textarea, label {
   bottom: 14px;
 }
 .section-title h3::after {
-  background-color: #FA6862;
+  background-color: #6297fa;
   width: 73px;
 }
 .section-title.light h3 {
@@ -679,8 +683,8 @@ textarea, label {
   border-bottom: 2px solid transparent;
 }
 .filter .active {
-  color: #FA6862;
-  border-bottom-color: #FA6862;
+  color: #6285fa;
+  border-bottom-color: #6271fa;
 }
 
 .works-item {
@@ -734,7 +738,7 @@ textarea, label {
   transform: translate3d(0px, 0px, 0px) scale(0);
 }
 .works-item h4 {
-  color: #FA6862;
+  color: #6285fa;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -985,7 +989,7 @@ textarea, label {
   transition: all 0.3s ease 0s;
 }
 .testimonials .owl-dot.active {
-  border-color: #FA6862;
+  border-color: #6285fa;
 }
 
 .tm-hex {
@@ -1113,13 +1117,13 @@ textarea, label {
   transform: translate(-50%, -50%);
 }
 .contact-social li:hover span {
-  background-color: #FA6862;
+  background-color: #337ab7;
 }
 .contact-social li:hover span::before {
-  border-bottom-color: #FA6862;
+  border-bottom-color: #337ab7;
 }
 .contact-social li:hover span::after {
-  border-top-color: #FA6862;
+  border-top-color: #337ab7;
 }
 
 .contact-social-hex {
@@ -1155,10 +1159,10 @@ textarea, label {
   border-top: 12.41px solid #1e2530;
 }
 .contact-social-hex:hover::after {
-  border-bottom-color: #FA6862;
+  border-bottom-color:#337ab7;
 }
 .contact-social-hex:hover::before {
-  border-top-color: #FA6862;
+  border-top-color: #337ab7;
 }
 
 .contact-form .input-field {
@@ -1220,7 +1224,7 @@ textarea, label {
 }
 
 .msg-success {
-  color: #FA6862;
+  color: #337ab7;
 }
 
 .pt-table.desktop-768 .pt-tablecell {
@@ -1362,7 +1366,7 @@ textarea, label {
 }
 
 .color-options li.c0 {
-  background-color: #FA6862;
+  background-color: #337ab7;
 }
 
 .color-options li.c1 {
